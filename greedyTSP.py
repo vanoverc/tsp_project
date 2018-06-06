@@ -31,7 +31,9 @@ def readInput(fileName, cities):
 	    cities.append(someCity)    # Add the city to cities array
     inputFile.close()
 
+# Initialize array of cities
 someCities = []
+# Read input from first command line argument
 readInput(sys.argv[1], someCities)
 
 # Test to confirm input read properly
